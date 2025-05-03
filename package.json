@@ -1,0 +1,28 @@
+{
+  "name": "module-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "cross-env VITE_API_ENV=dev vitepress dev docs --port 41730",
+    "docs:build": "vitepress build docs",
+    "docs:build-to-server": "vitepress build docs --outDir ../askc-server/static/dist",
+    "docs:preview": "vitepress preview docs --port 41731"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flexsearch": "^0.8.138",
+    "vitepress": "^1.1.4",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.7",
+    "element-plus": "^2.8.2",
+    "vitepress-plugin-search": "^1.0.4-alpha.22",
+    "vue": "^3.5.3"
+  }
+}
