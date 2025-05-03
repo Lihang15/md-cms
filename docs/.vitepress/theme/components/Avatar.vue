@@ -30,15 +30,15 @@ const handleCommand = (command: string | number | object) => {
   if (command === 'logout') {
         localStorage.removeItem('token')
         localStorage.removeItem('currentUser')
-        location.href = `/User/Login`;
+        location.href = `/md-cms/User/Login`;
         return;
     
     }
     if(command === 'user_management'){
-       location.href = `/User/UserManagement`;
+       location.href = `/md-cms/User/UserManagement`;
        return;
     }
-    location.href = `/User/Info`;
+    location.href = `/md-cms/User/Info`;
   }
         const currentUserStr = localStorage.getItem('currentUser')
       let currentUser = {url:'',username:''};

@@ -19,7 +19,7 @@ export default defineConfig({
       API_ENV: JSON.stringify(process.env.API_ENV)
     }
   },
-  base:'/',
+  base: "/md-cms/",
   title: "Lihang's cms",
   description: "A VitePress Site",
   ignoreDeadLinks: true,
