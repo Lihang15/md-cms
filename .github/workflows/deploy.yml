@@ -31,7 +31,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: 'main'
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+     # 安装pnpm
+      - name: Install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
       - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消注释
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
       - name: Setup Node
