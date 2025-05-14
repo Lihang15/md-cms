@@ -416,6 +416,8 @@ vscode.commands.executeCommand('extension.openFileInWebview');
 
 ```
 npm install -g @vscode/vsce
+
+ps：monorepo模式下，不可以打包，打包会出错，软连接依赖无法解决，可以用npm或者pnpm别用monorepo管理
 ```
 
    在当前插件目录下执行 vsce package 打包当前插件，会生成.vsix结尾的包
