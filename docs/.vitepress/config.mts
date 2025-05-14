@@ -25,7 +25,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
   head:[
-     ["link",{rel: "icon", href: "/assets/asset8600/logo/logo.png"}]
+     ["link",{rel: "icon", href: "/logo.png"}]
   ],
 
   locales:{
@@ -91,7 +91,7 @@ export default defineConfig({
     // }
   },
   themeConfig: {
-    logo:"/assets/asset8600/logo/logo.png",
+    logo:"/logo.png",
     search: {
       provider: 'local',
       options: {
