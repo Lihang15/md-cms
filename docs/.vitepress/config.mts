@@ -25,7 +25,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
   head:[
-     ["link",{rel: "icon", href: "/logo.png"}]
+     ["link",{rel: "icon", href: "/md-cms/logo.png"}]
   ],
 
   locales:{
