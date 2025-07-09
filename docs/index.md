@@ -5,18 +5,18 @@ layout: home
 
 hero:
   name: ""
-  text: "Content classification"
+  text: "内容分类"
 
 features:
 
- - title: Daily R&D help documentation
-   details:  Record some useful documents in the work
-   link: /Software-center/
+ - title: IDE扩展开发和高定
+   details: Vscode-Plugin/Theia/Code-OSS
+   link: /IDE-extension/VScode插件开发攻略
 
    
- - title: Foreign language learning
-   details:  Study notes on English and Japanese
-   link: /Foreign-language/
+ - title: 笔记
+   details:  学习笔记
+   link: /Notes/
 
 
  

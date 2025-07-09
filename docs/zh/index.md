@@ -5,16 +5,16 @@ layout: home
 
 hero:
   name: ""
-  text: "内容分类"
+  text: "内容分类-中文版本"
 
 features:
-  - title: 日常研发帮助文档
-    details:  记录一些工作中有用的文档
-    link: /Software-center/
+  - title: Vscode-Plugin/Theia/Code-OSS
+    details: IDE扩展开发和高定
+    link: /IDE-extension/VScode插件开发攻略
 
-  - title: 外语学习
-    details:  英语和日语学习笔记
-    link: /Foreign-language/
+  - title: 笔记
+    details:  学习笔记
+    link: /Notes/
 
   
 

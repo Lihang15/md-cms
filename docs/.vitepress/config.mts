@@ -34,20 +34,20 @@ export default defineConfig({
       lang: 'en',
       themeConfig:{
         sidebar: {
-          '/Software-center':[
+          '/Notes':[
             {
               // link:'/Sts8600',
               // collapsed:true,
               // text:'Sts8600 Documentation',
-              items:generateSidebar('Software-center')
+              items:generateSidebar('Notes')
             }
           ],
-          '/Foreign-language':[
+          '/IDE-extension':[
             {
               // link:'/Sts8600',
               // collapsed:true,
               // text:'Sts8600 Documentation',
-              items:generateSidebar('Foreign-language')
+              items:generateSidebar('IDE-extension')
             }
           ]
         },
