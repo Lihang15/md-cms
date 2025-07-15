@@ -1,6 +1,6 @@
 [[toc]]
 
-# VScode插件开发攻略
+# VScode插件开发入门攻略
 
 ## VScode使用什么技术实现的？
 

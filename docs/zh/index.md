@@ -10,7 +10,7 @@ hero:
 features:
   - title: Vscode-Plugin/Theia/Code-OSS
     details: IDE扩展开发和高定
-    link: /IDE-extension/VScode插件开发攻略
+    link: /IDE-extension/VScode插件开发入门攻略
 
   - title: 笔记
     details:  学习笔记
