@@ -20,7 +20,7 @@ export default defineConfig({
     }
   },
   base: "/md-cms/",
-  title: "Lihang's cms",
+  title: "lihang的博客",
   description: "A VitePress Site",
   ignoreDeadLinks: true,
   cleanUrls: true,

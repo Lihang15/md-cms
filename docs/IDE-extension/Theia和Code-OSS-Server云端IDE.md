@@ -3,6 +3,7 @@
 Theia支持vscode插件和Theia插件，并可以通过Api的方式，修改Theia的整体布局
 
 vscode插件是不可以修改vscode核心视图的，只能在vscode视图基础上累加
+vscode的社区开源版本，在Code-oss的基础上加了云端功能，开源仓库是Code-server，修改核心视图需要修改vscode源码，代价较高
 
 # Theia官方示例代码结构
 ![](/assets/theia/3.jpg)
