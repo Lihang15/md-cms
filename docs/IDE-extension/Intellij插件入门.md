@@ -41,7 +41,7 @@ jdk 21
 下载java-> https://www.oracle.com/java/technologies/downloads/
 
 3.不再通过Plugin DevKit 插件，创建模版，插件模版没更新2.x版本的配置
-直接下载官方2.x版本插件
+直接下载官方2.x版本插件模版
 https://github.com/JetBrains/intellij-platform-plugin-template
 
 
