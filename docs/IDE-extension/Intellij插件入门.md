@@ -80,6 +80,7 @@ IDEA 2024.2+  Java 21
 ```
 
 ## gradle/gradlew命令详解
+```
 ./gradlew build  拉三方依赖 + 编译 + 测试 + 打包  
 ./gradlew clean  清理yourProject/build build目录下构建产物
 ./gradlew assemble 只打包
@@ -95,3 +96,4 @@ IDEA 插件开发相关
 ./gradlew runIde 启动一个沙箱 IDEA（调试插件）
 ./gradlew buildPlugin 构建 IDEA 插件包（zip）
 ./gradlew verifyPlugin 校验插件兼容性
+```
