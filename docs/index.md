@@ -10,7 +10,7 @@ hero:
 features:
 
  - title: IDE扩展开发和高定
-   details: Vscode-Plugin/Theia/Code-OSS/Intellij
+   details: Vscode-Plugin/Theia/Code-OSS/Intellij/Ai
    link: /IDE-extension/VScode插件开发入门
 
    
