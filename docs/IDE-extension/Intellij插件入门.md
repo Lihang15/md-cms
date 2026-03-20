@@ -1,33 +1,5 @@
 # Intellij插件开发指南<推荐用Intellij 2.x>
 
-## Intellij 1.x 环境准备，我用的Mac电脑
-
-```
-1. IntelliJ IDEA 版本
-2024.3.7 (Community Edition)
-下载IDEA-> https://plugins.jetbrains.com/docs/
-
-2.Java 版本
-jdk 17
-下载java-> https://www.oracle.com/java/technologies/downloads/
-
-3.在IDEA里下载 Plugin DevKit 插件，用于创建插件模版
-插件安装好后，会在IDEA左侧出现IDE Plugin的 ui选项，点击即可
-
--3.1. Gradle版本8.11.1 不需要手动下载并配置全局的gradle，用自带的gradle-wrapper
-修改配置如下，如果网络慢可选择手动下载，并指定本地包位置
-修改yourPluginProjectRoot/gradle/wrapper/gradle-wrapper.properties
-distributionUrl=file:///Users/zhangjingjing/Downloads/gradle-8.11.1-bin.zip
-
-
--3.2.插件版本  可修改gradle.build.kts配置
-1.17.4  1.x版本 
-```
-### 运行插件
-环境都没问题，点击run plugin，会弹出会根据你的配置启动一个自动运行你的插件的IDEA/Android Studio的调试终端
-![](/assets/intellij/run.png)
-### 代码结构
-![](/assets/intellij/demo.png)
 
 ## Intellij 2.x 环境准备，我用的Mac电脑
 
@@ -97,3 +69,34 @@ IDEA 插件开发相关
 ./gradlew buildPlugin 构建 IDEA 插件包（zip）
 ./gradlew verifyPlugin 校验插件兼容性
 ```
+
+
+
+## Intellij 1.x 环境准备，现在基本弃用了，我用的Mac电脑
+
+```
+1. IntelliJ IDEA 版本
+2024.3.7 (Community Edition)
+下载IDEA-> https://plugins.jetbrains.com/docs/
+
+2.Java 版本
+jdk 17
+下载java-> https://www.oracle.com/java/technologies/downloads/
+
+3.在IDEA里下载 Plugin DevKit 插件，用于创建插件模版
+插件安装好后，会在IDEA左侧出现IDE Plugin的 ui选项，点击即可
+
+-3.1. Gradle版本8.11.1 不需要手动下载并配置全局的gradle，用自带的gradle-wrapper
+修改配置如下，如果网络慢可选择手动下载，并指定本地包位置
+修改yourPluginProjectRoot/gradle/wrapper/gradle-wrapper.properties
+distributionUrl=file:///Users/zhangjingjing/Downloads/gradle-8.11.1-bin.zip
+
+
+-3.2.插件版本  可修改gradle.build.kts配置
+1.17.4  1.x版本 
+```
+### 运行插件
+环境都没问题，点击run plugin，会弹出会根据你的配置启动一个自动运行你的插件的IDEA/Android Studio的调试终端
+![](/assets/intellij/run.png)
+### 代码结构
+![](/assets/intellij/demo.png)
