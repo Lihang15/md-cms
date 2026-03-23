@@ -45,7 +45,7 @@ git clone --branch main --single-branch --depth 1 git@github.com:microsoft/vscod
 ```
 ![alt text](/assets/ai/image6.png)
 ```
-来来来，开始修改源代码，在欢迎页面加修改源码加一句 我是菠萝喵喵
+开始修改源代码，在欢迎页面加修改源码加一句 我是菠萝喵喵
 ```
 ![alt text](/assets/ai/image7.png)
 
