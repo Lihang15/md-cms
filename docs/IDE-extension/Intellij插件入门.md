@@ -70,8 +70,22 @@ IDEA 插件开发相关
 ./gradlew verifyPlugin 校验插件兼容性
 ```
 
+# 发布插件到市场
+## 注册jetbrains账号
+https://plugins.jetbrains.com/developers/intellij-platform
+```
+我用的github账号直接登录的
+也可以选择谷歌账号
+也可以注册jetbrains账号
+```
+![](/assets/intellij/image1.png)
 
-
+```
+点击Upload plugin
+填写表单，上传你的插件，等待审核就可以了
+Vendor信息，会显示在你的插件名字下面
+上传者的名字，就是你的登陆账号的名字
+```
 ## Intellij 1.x 环境准备，现在基本弃用了，我用的Mac电脑
 
 ```
@@ -100,3 +114,4 @@ distributionUrl=file:///Users/zhangjingjing/Downloads/gradle-8.11.1-bin.zip
 ![](/assets/intellij/run.png)
 ### 代码结构
 ![](/assets/intellij/demo.png)
+
