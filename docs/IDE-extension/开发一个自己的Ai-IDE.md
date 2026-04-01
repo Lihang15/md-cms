@@ -12,14 +12,33 @@ git clone --branch main --single-branch --depth 1 git@github.com:microsoft/vscod
 
 ## 开发方式有如下两种，目前推荐第一种
 ```
-第一种，下载vscode，安装docker，并下载Dev Containers插件
-第二种，参考官方文档一步一步来，安装c++工具链，python，nodejs等环境，容易出问题并且很难解决
+第一种，直接跑源码，编译和环境问题自行解决
+第二种，下载vscode，安装docker，并下载Dev Containers插件
+
 ```
+
+### 开发方式一，直接跑源码
+```
+在源码目录直接执行如下命令
+npm install
+npm run compile 第一次跑要全量编译
+./scripts/code.sh   这个命令会把vscode的客户端直接跑起来
+
+开发阶段推荐如下命令，可以不用全量编译，增量编译模式
+1.终端 A：npm run watch（一直开着）
+2.终端 B：./scripts/code.sh 启动本地 VS Code
+3.改代码后，watch 自动产出到 out/，重启窗口/重载即可看效果
+简单说：watch 提升迭代速度，compile 做最终验收。
+
+```
+
+### 开发方式二，Dev Containers 使用流程
+
 ![](/assets/ai/image1.png)
 注意: docker内存调整到16g
 ![](/assets/ai/image9.png)
 
-### Dev Containers 使用流程
+
 ```
 1. 用vscode-ide打开刚刚克隆下来的vscode源码
 2. command + shift + p 
