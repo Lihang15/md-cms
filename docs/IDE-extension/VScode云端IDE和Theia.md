@@ -1,4 +1,4 @@
-# Theia 
+# VScode云端IDE和Theia 
 
 Theia支持vscode插件和Theia插件，并可以通过Api的方式，修改Theia的整体布局
 
