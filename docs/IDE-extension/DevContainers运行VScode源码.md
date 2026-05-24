@@ -43,7 +43,12 @@
 开发阶段执行
 npm run watch    这个可以热更新，不过改了代码还要去执行./scripts/code.sh
 ./scripts/code.sh
+
+```
+
 ![alt text](/assets/ai/image8.png)
 
+```
 vscode源码解析
 https://zhuanlan.zhihu.com/p/25726569753
+```
